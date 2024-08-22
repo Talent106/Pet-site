@@ -6,6 +6,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import * as BootstrapVueNext from 'bootstrap-vue-next';
 import { BButton } from 'bootstrap-vue-next';
 import { BBadge } from 'bootstrap-vue-next';
+import '@/assets/scss/App.scss';
 
 const app = createApp(App);
 

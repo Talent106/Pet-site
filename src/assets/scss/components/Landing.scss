@@ -1,0 +1,44 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 140px;
+
+    .carousel {
+        background-image: url("../../img/doggo.jpg");
+        background-repeat: no-repeat;
+        height: 100%;
+        max-height: 700px;
+
+        .content-wrapper {
+            padding-left: 20%;
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: snow;
+                height: 100%;
+                position: absolute;
+                width: 30%;
+
+                .title {
+                    font-family: "Roboto Condensed";
+                    font-size: 60px;
+                    font-weight: bold;
+                    line-height: normal;
+                    text-transform: uppercase;
+                }
+
+                .discription {
+                    font-size: 20px;
+                }
+
+                button {
+                    padding: 8px 35px;
+                    width: fit-content;
+                }
+            }
+        }
+    }
+}
