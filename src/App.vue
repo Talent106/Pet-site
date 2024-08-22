@@ -1,16 +1,18 @@
 <template>
 	<Header></Header>
-	<div class="black"></div>
+	<Landing></Landing>
 </template>
 
 <script>
 	import Header from '@/components/Header.vue';
+	import Landing from '@/components/Landing/index.vue';
 	import '@/assets/scss/App.scss';
 
 	export default {
 		name: 'App',
 		components: {
-			Header
+			Header,
+			Landing
 		}
 	}
 </script>
