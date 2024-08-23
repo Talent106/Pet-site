@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    height: max-content;
+    padding: 50px;
+
+    .info {
+        display: flex;
+        justify-content: center;
+
+        .logo {
+            height: 140px;
+        }
+
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .categories {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                color: snow;
+                text-decoration: none;
+            }
+        }
+    }
+}
