@@ -8,7 +8,7 @@
         background-image: url("../../img/doggo.jpg");
         background-repeat: no-repeat;
         height: 100%;
-        max-height: 700px;
+        min-height: 700px;
 
         .content-wrapper {
             padding-left: 20%;
@@ -35,9 +35,54 @@
                 }
 
                 button {
+                    font-weight: bold;
                     padding: 8px 35px;
                     width: fit-content;
                 }
+            }
+        }
+    }
+
+    .banners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+
+        .banner-x {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 10px solid snow;
+            border-radius: 5%;
+            margin-top: -110px;
+            position: relative;
+
+            .gallery {
+                border-radius: 5%;
+                width: 260px;
+                z-index: 2;
+            }
+
+            .round {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: red;
+                border-radius: 50%;
+                color: snow;
+                font-size: 40px;
+                height: 90px;
+                margin-top: -45px;
+                width: 90px;
+                z-index: 2;
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 15px;
+                text-transform: uppercase;
             }
         }
     }
