@@ -3,11 +3,14 @@
     flex-direction: column;
     background-color: #333;
     height: max-content;
-    padding: 50px;
+    padding: 30px;
 
     .info {
         display: flex;
-        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid #7e7777;
+        padding: 20px;
 
         .logo {
             height: 140px;
@@ -18,12 +21,13 @@
             flex-direction: column;
         }
 
-        .categories {
+        .information {
             display: flex;
             flex-direction: column;
 
             a {
-                color: snow;
+                color: rgb(173, 173, 173);
+                font-size: 13px;
                 text-decoration: none;
             }
         }
