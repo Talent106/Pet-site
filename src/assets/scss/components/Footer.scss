@@ -19,6 +19,7 @@
         .footer-info {
             display: flex;
             flex-direction: column;
+            width: 200px;
         }
 
         .information {
@@ -30,6 +31,16 @@
                 font-size: 13px;
                 text-decoration: none;
             }
+        }
+    }
+
+    .payment {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .payment-icons {
+            display: flex;
         }
     }
 }

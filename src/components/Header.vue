@@ -7,7 +7,7 @@
         <div class="menu">
             <div class="top-bar">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="What are you looking for?">
+                    <input type="text" class="form-control" placeholder="What are you looking for?" />
                     <div class="input-group-append">
                         <button class="btn btn-outline-success" type="button">
                             <i class="bi bi-search"></i>
