@@ -8,6 +8,33 @@
     width: 100%;
 }
 
+//font
+.bold {
+  font-weight: bold !important;
+}
+
+.capslock {
+  text-transform: uppercase !important;
+}
+
+//color
+.light-black-1 {
+  color: #2e2e2e;
+}
+
+.light-black-2 {
+  color: #504f4f;
+}
+
+.light-black-3 {
+  color: #747474;
+}
+
+.light-black-4 {
+  color: #969696;
+}
+
+//theme color
 $theme-colors: (
   "primary": #0074d9,
   "danger": rgb(233, 0, 0)
