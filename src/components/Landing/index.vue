@@ -15,15 +15,7 @@
             </div>
         </div>
 
-        <div class="banners">
-            <div v-for="(item, index) in items" :key="index" class="banner-x">
-                <img class="gallery" :src="item.img" />
-                <div class="round">
-                    <i :class="item.icon"></i>
-                </div>
-                <p>{{ item.title }}</p>
-            </div>
-        </div>
+        <Banner :data="Banner_Items"></Banner>
 
         <Products></Products>
 
@@ -44,6 +36,7 @@
 
 <script>
     import Products from './Products.vue';
+    import Banner from '@/components/Landing/Banner.vue';
     import '@/assets/scss/components/Landing/Landing.scss';
     import img1 from '@/assets/img/1.jpg';
     import img2 from '@/assets/img/2.jpg';
@@ -53,11 +46,12 @@
     export default {
         name: 'Landing',
         components: {
-            Products
+            Products,
+            Banner
         },
         data() {
             return {
-                items: [
+                Banner_Items: [
                     {
                         img: img1,
                         icon: "bi bi-house-fill",
