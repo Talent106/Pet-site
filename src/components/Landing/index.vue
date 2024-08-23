@@ -80,7 +80,7 @@
 
                 Products: [
                     {
-                        img: img1,
+                        img: img1_1,
                         brand: "corsa",
                         title: "Corsa Bowls (5 Colors, 3 Sizes)",
                         review: "review 1",
@@ -88,7 +88,7 @@
                         btn: "Show Option"
                     },
                     {
-                        img: img2,
+                        img: img2_1,
                         title: "16 oz. Meal Topper Turkey Cranberry",
                         review: "review 4",
                         price: "14.99",
@@ -96,7 +96,7 @@
                         btn: "Add To Cart"
                     },
                     {
-                        img: img3,
+                        img: img3_1,
                         brand: "Natures Choice",
                         title: "Nature's Choice Sweet Potato & Duck Meat Sticks",
                         review: "review 165",
@@ -105,7 +105,7 @@
                         btn: "Add To Cart"
                     },
                     {
-                        img: img4,
+                        img: img4_1,
                         brand: "Bella Pet Mats",
                         title: "Pet Food & Water Mats (9 Styles)",
                         review: "review 5",
