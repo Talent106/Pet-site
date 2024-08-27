@@ -24,7 +24,7 @@
                 </div>
                 <div class="d-flex m-3">
                     <i class="bi bi-person-circle me-2"></i>
-                    <a>Account</a>
+                    <a href="/login">Account</a>
                 </div>
             </div>
             <div class="bottom-bar">
