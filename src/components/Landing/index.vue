@@ -19,24 +19,14 @@
 
         <Products :data="Products"></Products>
 
-        <div class="newsletter">
-            <h3 class="bold capslock me-4">Newsletter Signup</h3>
-            <div class="input-group mx-4">
-                <input type="text" class="form-control" placeholder="Email Address*">
-                <div class="input-group-append">
-                    <button class="btn btn-danger capslock bold" type="button">
-                        Subscribe
-                    </button>
-                </div>
-            </div>
-            <img src="../../assets/img/dog.webp" />
-        </div>
+        <NewsLetter></NewsLetter>
     </div>
 </template>
 
 <script>
     import Products from './Products.vue';
     import Banner from '@/components/Landing/Banner.vue';
+    import NewsLetter from './NewsLetter.vue';
     import '@/assets/scss/components/Landing/Landing.scss';
     import img1 from '@/assets/img/1.jpg';
     import img2 from '@/assets/img/2.jpg';
@@ -51,7 +41,8 @@
         name: 'Landing',
         components: {
             Products,
-            Banner
+            Banner,
+            NewsLetter
         },
         data() {
             return {
