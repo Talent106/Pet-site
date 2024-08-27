@@ -14,6 +14,8 @@
 </template>
 
 <script>
+    import '@/assets/scss/components/Landing/NewsLetter.scss';
+    
     export default {
         name: "NewsLetter"
     }

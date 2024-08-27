@@ -87,20 +87,4 @@
             }
         }
     }
-
-    .newsletter {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        .input-group {
-            height: max-content;
-            width: auto;
-
-            .form-control {
-                border: 1px solid #b9b9b9;
-                width: 300px;
-            }
-        }
-    }
 }
