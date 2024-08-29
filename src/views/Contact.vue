@@ -1,6 +1,12 @@
 <template>
     <div class="contact">
-        
+        <HeaderBar path="Home / Contact Us" title="Contact Us"></HeaderBar>
+        <div class="service my-3 f-12">
+            <p>Customer Service Hours: {{ ServiceItem.hour }}</p>
+            <p>Address: {{ ServiceItem.address }}</p>
+            <p>Email: {{ ServiceItem.email }}</p>
+            <p>Phone: {{ ServiceItem.phone }}</p>
+        </div>
         <div class="content my-3">
             <div class="login-form me-4">
                 <div class="row my-2">
@@ -50,11 +56,24 @@
 
 <script>
     import NewsLetter from '@/components/Landing/NewsLetter.vue';
+    import HeaderBar from '@/components/HeaderBar.vue';
+    import '@/assets/scss/views/Contact.scss';
 
     export default {
         name: "Contact",
         components: {
-            NewsLetter
+            NewsLetter,
+            HeaderBar
+        },
+        data() {
+            return {
+                ServiceItem: {
+                    hour: "Monday through Friday (9am - 430pm EST)",
+                    address: "110 Melrich Rd, Cranbury, NJ 08512",
+                    email: "Cathy@lovingpetsproducts.com",
+                    phone: "(609) 655-3700"
+                }
+            }
         }
     }
 </script>

@@ -1,0 +1,33 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 250px;
+    width: 65%;
+
+    .service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                border: 1px solid #c0c0c0;
+            }
+
+            .btn-form {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
+}
