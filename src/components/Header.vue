@@ -20,7 +20,7 @@
                 </div>
                 <div class="d-flex m-3">
                     <i class="bi bi-question-circle me-2"></i>
-                    <a>Help</a>
+                    <a href="/contact">Help</a>
                 </div>
                 <div class="d-flex m-3">
                     <i class="bi bi-person-circle me-2"></i>
@@ -34,7 +34,7 @@
                     <a>Cat</a>
                     <a>About</a>
                     <a>Blog</a>
-                    <a>Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                 </div>
                 <button class="btn btn-outline-danger rounded-pill">
                     <i class="bi bi-cart3 me-2"></i>CART
