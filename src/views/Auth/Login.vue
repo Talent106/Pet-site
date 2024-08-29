@@ -8,7 +8,7 @@
                         <label for="input-default">Email Address:</label>
                     </div>
                     <div class="col-sm-12">
-                        <input type="text" class="form-control" id="input-default" placeholder="" />
+                        <input @input="$emit(this.email, $event.target.value)" type="email" class="form-control" id="input-default" />
                     </div>
                 </div>
 
@@ -17,12 +17,12 @@
                         <label for="input-default">Password:</label>
                     </div>
                     <div class="col-sm-12">
-                        <input type="password" class="form-control" id="input-default" placeholder="" />
+                        <input @input="$emit(this.password, $event.target.value)" type="password" class="form-control" id="input-default" />
                     </div>
                 </div>
 
                 <div class="btn-form mt-3">
-                    <button class="btn btn-danger capslock bold" type="button">
+                    <button class="btn btn-danger capslock bold" @click="signIn" type="button">
                         Sign In
                     </button>
                     <a>Forgot your password?</a>
@@ -58,6 +58,17 @@
         components: {
             NewsLetter,
             HeaderBar
+        },
+        data() {
+            return {
+                email: '',
+                password: ''
+            }
+        },
+        methods: {
+            signIn() {
+                console.log("222222", this.email, this.password);
+            }
         }
     }
 </script>
