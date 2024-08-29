@@ -1,7 +1,6 @@
 <template>
     <div class="login">
-        <p>Home / Login</p>
-        <h2 class="bold capslock">Sign In</h2>
+        <HeaderBar path="Home / Login" title="Sign In"></HeaderBar>
         <div class="content my-3">
             <div class="login-form me-4">
                 <div class="row my-2">
@@ -51,12 +50,14 @@
 
 <script>
     import NewsLetter from '@/components/Landing/NewsLetter.vue';
+    import HeaderBar from '@/components/HeaderBar.vue';
     import '@/assets/scss/views/Auth/Login.scss';
 
     export default {
         name: "Login",
         components: {
-            NewsLetter
+            NewsLetter,
+            HeaderBar
         }
     }
 </script>
